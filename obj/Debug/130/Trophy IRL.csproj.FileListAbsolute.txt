@@ -425,3 +425,7 @@ C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\android\src\crc64050
 C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\android\src\crc64050ca4f2472d31d8\ViewHolder.java
 C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\android\src\crc64a535c73a57bfec6a\CustomListAdapter.java
 C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\android\src\crc64a535c73a57bfec6a\ViewHolder.java
+C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\drawable\bronze.png
+C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\drawable\gold.png
+C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\drawable\platinum.png
+C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\drawable\silver.png

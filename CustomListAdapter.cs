@@ -1,4 +1,6 @@
-﻿using Android.Views;
+﻿using Android.Content.Res;
+using Android.Graphics.Drawables;
+using Android.Views;
 using Android.Widget;
 using System.Collections.Generic;
 
@@ -32,14 +34,16 @@ namespace Trophy_IRL{
             if (view == null){
                 view = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.list_item, parent, false);
 
+                var icon = view.FindViewById<ImageView>(Resource.Id.icon);
                 var title = view.FindViewById<TextView>(Resource.Id.title);
                 var description = view.FindViewById<TextView>(Resource.Id.description);
 
-                view.Tag = new ViewHolder() { Title = title, Description = description };
+                view.Tag = new ViewHolder() { Icon = icon, Title = title, Description = description };
             }
 
             var holder = (ViewHolder)view.Tag;
 
+            holder.Icon.SetImageResource(trophies[position].Icon);
             holder.Title.Text = trophies[position].Title;
             holder.Description.Text = trophies[position].Description;
 

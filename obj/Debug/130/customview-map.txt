@@ -15,6 +15,7 @@ external-cache-path;C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\
 external-path;C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\lp\51\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
+ImageView;obj\Debug\130\res\layout\list_item.xml
 include;obj\Debug\130\res\layout\activity_main.xml
 item;obj\Debug\130\res\menu\menu_main.xml
 item;obj\Debug\130\res\values\styles.xml

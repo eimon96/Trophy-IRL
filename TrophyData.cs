@@ -17,9 +17,10 @@ namespace Trophy_IRL
         static void AddTrophy(List<Trophy> trophies){
             trophies.Add(new Trophy()
             {
+                Icon = Resource.Drawable.bronze,
                 Title = "Survivor",
                 Description = "Still Alive till this very day.",
-            });
+            }); ;
         }
     }
 }
