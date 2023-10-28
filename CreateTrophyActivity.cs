@@ -45,9 +45,15 @@ namespace Trophy_IRL{
             dropdown = FindViewById<Spinner>(Resource.Id.SpType);
             unlock = FindViewById<Button>(Resource.Id.BtnUnlock);
             unlock.Click += (sender, e) =>{
-                TrophyData.AddTrophy(dropdown.SelectedItem.ToString().ToLower(), title.Text, description.Text);
-                MainActivity.UpdateList();
-                Finish();
+                if (title.Text.ToString().Equals("") || description.Text.ToString().Equals("")) {
+                    Toast.MakeText(this, "Empty Field Found", ToastLength.Short).Show();
+                    return;
+                }
+                else {
+                    TrophyData.AddTrophy(dropdown.SelectedItem.ToString().ToLower(), title.Text, description.Text);
+                    MainActivity.UpdateList();
+                    Finish();
+                }
             };
         }
 
