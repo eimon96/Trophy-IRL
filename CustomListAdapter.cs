@@ -1,6 +1,4 @@
-﻿using Android.Content.Res;
-using Android.Graphics.Drawables;
-using Android.Views;
+﻿using Android.Views;
 using Android.Widget;
 using System.Collections.Generic;
 
@@ -10,6 +8,10 @@ namespace Trophy_IRL{
 
         public CustomListAdapter(List<Trophy> trophies){
             this.trophies = trophies;
+        }
+
+        public void Add(Trophy trophy){
+            trophies.Insert(0, trophy);
         }
 
         public override Trophy this[int position]{

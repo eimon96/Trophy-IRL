@@ -1,3 +1,6 @@
+Trophy_IRL.CreateTrophyActivity, Trophy IRL;crc64a535c73a57bfec6a.CreateTrophyActivity
+Trophy_IRL.CreateTrophyActivity;crc64a535c73a57bfec6a.CreateTrophyActivity
+trophy_irl.CreateTrophyActivity;crc64a535c73a57bfec6a.CreateTrophyActivity
 Trophy_IRL.MainActivity, Trophy IRL;crc64a535c73a57bfec6a.MainActivity
 Trophy_IRL.MainActivity;crc64a535c73a57bfec6a.MainActivity
 trophy_irl.MainActivity;crc64a535c73a57bfec6a.MainActivity

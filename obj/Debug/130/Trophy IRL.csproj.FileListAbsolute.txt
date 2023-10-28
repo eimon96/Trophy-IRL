@@ -429,3 +429,6 @@ C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\drawable\bronze.
 C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\drawable\gold.png
 C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\drawable\platinum.png
 C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\drawable\silver.png
+C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\layout\activity_trophy_create.xml
+C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\android\src\crc64a535c73a57bfec6a\CreateTrophyActivity.java
+C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\res\layout\spinner_item.xml

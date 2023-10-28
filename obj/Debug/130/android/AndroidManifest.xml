@@ -12,6 +12,7 @@
   <permission android:name="com.companyname.trophy_irl.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.trophy_irl.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
   <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
+    <activity android:name="crc64a535c73a57bfec6a.CreateTrophyActivity" android:label="CreateTrophyActivity" android:theme="@style/AppTheme.NoActionBar" />
     <activity android:name="crc64a535c73a57bfec6a.MainActivity" android:exported="true" android:label="@string/app_name" android:theme="@style/AppTheme.NoActionBar">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

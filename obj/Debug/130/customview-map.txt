@@ -2,15 +2,20 @@
 adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
 androidx.appcompat.widget.Toolbar;obj\Debug\130\res\layout\activity_main.xml
+androidx.appcompat.widget.Toolbar;obj\Debug\130\res\layout\activity_trophy_create.xml
 androidx.coordinatorlayout.widget.CoordinatorLayout;obj\Debug\130\res\layout\activity_main.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;obj\Debug\130\res\layout\activity_trophy_create.xml
 background;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\130\res\layout\activity_trophy_create.xml
 cache-path;C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\lp\51\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\130\res\values\colors.xml
 color;obj\Debug\130\res\values\ic_launcher_background.xml
 com.google.android.material.appbar.AppBarLayout;obj\Debug\130\res\layout\activity_main.xml
+com.google.android.material.appbar.AppBarLayout;obj\Debug\130\res\layout\activity_trophy_create.xml
 com.google.android.material.floatingactionbutton.FloatingActionButton;obj\Debug\130\res\layout\activity_main.xml
 dimen;obj\Debug\130\res\values\dimens.xml
+EditText;obj\Debug\130\res\layout\activity_trophy_create.xml
 external-cache-path;C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\lp\51\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\user\source\repos\Xamarin\Trophy IRL\obj\Debug\130\lp\51\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
@@ -20,8 +25,10 @@ include;obj\Debug\130\res\layout\activity_main.xml
 item;obj\Debug\130\res\menu\menu_main.xml
 item;obj\Debug\130\res\values\styles.xml
 LinearLayout;obj\Debug\130\res\layout\activity_main.xml
+LinearLayout;obj\Debug\130\res\layout\activity_trophy_create.xml
 LinearLayout;obj\Debug\130\res\layout\content_main.xml
 LinearLayout;obj\Debug\130\res\layout\list_item.xml
+LinearLayout;obj\Debug\130\res\layout1.xml
 ListView;obj\Debug\130\res\layout\activity_main.xml
 ListView;obj\Debug\130\res\layout\content_main.xml
 menu;obj\Debug\130\res\menu\menu_main.xml
@@ -33,8 +40,11 @@ resources;obj\Debug\130\res\values\dimens.xml
 resources;obj\Debug\130\res\values\ic_launcher_background.xml
 resources;obj\Debug\130\res\values\strings.xml
 resources;obj\Debug\130\res\values\styles.xml
+Spinner;obj\Debug\130\res\layout\activity_trophy_create.xml
 string;obj\Debug\130\res\values\strings.xml
 style;obj\Debug\130\res\values\styles.xml
 Text;obj\Debug\130\res\layout\content_main.xml
+TextView;obj\Debug\130\res\layout\activity_trophy_create.xml
 TextView;obj\Debug\130\res\layout\content_main.xml
 TextView;obj\Debug\130\res\layout\list_item.xml
+TextView;obj\Debug\130\res\layout\spinner_item.xml
