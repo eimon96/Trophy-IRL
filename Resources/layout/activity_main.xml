@@ -31,6 +31,7 @@
             android:divider="@color/blue"
             android:dividerHeight="5dp"
             android:paddingTop="5dp"
+            android:paddingHorizontal="5dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
