@@ -6,4 +6,14 @@ Well, I'm already into gaming as well as trophy hunting so why not apply this po
 
 <img src="https://i.imgur.com/3ibCjRx.jpg" width="360" height="740"> <img src="https://i.imgur.com/tngELMb.jpg" width="360" height="740">
 
+----------------------------------------------------------------------------
+
+Requires Android 13 and up.
+
+Tested on:     
+PIXEL 5 (13 API 33) (EMULATED)     
+SAMSUNG GALAXY A23 (SM-A236B 13 API 33)
+
+----------------------------------------------------------------------------
+
 Happy Hunting!
