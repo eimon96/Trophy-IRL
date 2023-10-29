@@ -19,6 +19,10 @@ namespace Trophy_IRL{
             trophies.RemoveAt(position);
         }
 
+        public Trophy GetTrophy(int position){
+            return trophies[position];
+        }
+
         public override Trophy this[int position]{
             get{
                 return trophies[position];

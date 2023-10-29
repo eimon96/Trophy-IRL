@@ -15,6 +15,16 @@ namespace Trophy_IRL
                 Description = description,
             });
         }
+        public static void AddTrophyFromDB(int id, int type, string title, string description)
+        {
+            Trophies.Add(new Trophy()
+            {
+                Id = id,
+                Icon = type,
+                Title = title,
+                Description = description,
+            });
+        }
 
         public static void RemoveTrophy(int position){
             Trophies.RemoveAt(position);
@@ -34,5 +44,6 @@ namespace Trophy_IRL
                     return 0;
             }
         }
+
     }
 }
