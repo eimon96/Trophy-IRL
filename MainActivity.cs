@@ -4,6 +4,7 @@ using Android.Views;
 using AndroidX.AppCompat.App;
 using Android.Widget;
 using System.Linq;
+using AlertDialog = Android.App.AlertDialog;
 
 namespace Trophy_IRL{
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
@@ -25,6 +26,7 @@ namespace Trophy_IRL{
             TrophyData.AddTrophy("bronze", "Survivor", "Still Alive till this very day.");
             adapter = new CustomListAdapter(TrophyData.Trophies.ToList());
             listView.Adapter = adapter;
+            listView.ItemLongClick += OnItemLongClick;
         }
 
         public static void UpdateList(){
@@ -45,5 +47,21 @@ namespace Trophy_IRL{
 
             return base.OnOptionsItemSelected(item);
         }
-	}
+
+        private void OnItemLongClick(object sender, AdapterView.ItemLongClickEventArgs e){
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetMessage("Delete trophy?");
+            alert.SetButton("Delete", (c, ev) =>{
+                TrophyData.RemoveTrophy(e.Position);
+                adapter.Remove(e.Position);
+                adapter.NotifyDataSetChanged();
+            });
+            alert.SetButton2("Cancel", (c, ev) => {
+                alert.Cancel();
+            });
+            alert.Show();
+        }
+    }
+
 }

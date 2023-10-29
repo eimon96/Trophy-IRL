@@ -1,6 +1,4 @@
-﻿using Android.Graphics.Drawables;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 
 namespace Trophy_IRL
 {
@@ -9,7 +7,7 @@ namespace Trophy_IRL
         public static List<Trophy> Trophies = new List<Trophy>();
 
         public static void AddTrophy(string type, string title, string description){
-            int typeId = getTypeId(type);
+            int typeId = GetTypeId(type);
             Trophies.Add(new Trophy()
             {
                 Icon = typeId,
@@ -18,7 +16,11 @@ namespace Trophy_IRL
             });
         }
 
-        private static int getTypeId(string type){
+        public static void RemoveTrophy(int position){
+            Trophies.RemoveAt(position);
+        }
+
+        private static int GetTypeId(string type){
             switch (type){
                 case ("bronze"):
                     return Resource.Drawable.bronze;
